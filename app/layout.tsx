@@ -3,6 +3,9 @@ import './globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://random-number.vercel.app'),
+  alternates: {
+    canonical: 'https://random-number.vercel.app',
+  },
   title: 'Random Number Generator — Secure & Fast | Free Tool',
   description: 'Generate random numbers with custom ranges. Free online random number generator for games, drawings, and more.',
   keywords: ['random number generator', 'random generator', 'number picker', 'randomizer', 'rng'],
