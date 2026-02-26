@@ -17,11 +17,18 @@ export const metadata: Metadata = {
     siteName: 'Random Number Generator',
     title: 'Random Number Generator — Secure & Fast',
     description: 'Generate random numbers with custom ranges.',
+    images: [{
+      url: '/og-image.svg',
+      width: 1200,
+      height: 630,
+      alt: 'Random Number Generator',
+    }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Random Number Generator',
     description: 'Generate random numbers with custom ranges.',
+    images: ['/og-image.svg'],
   },
   robots: { index: true, follow: true },
 }
